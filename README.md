@@ -151,4 +151,4 @@ Some useful Gstreamer commands are:
 
 7. Write code to interact with the bluetoothctl and dbus that will execute your desired GStreaner audio functions.
 
-		Note: you are responsible for the lawful and ethical use of audio recording and monitoring.
+		Note: You are responsible for the lawful and ethical use of audio recording and monitoring.
