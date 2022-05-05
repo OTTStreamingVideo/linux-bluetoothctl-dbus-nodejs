@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>{{title}}</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="/media/favicon.png"/>
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="/js/main.js"></script>
+  
+</head>
+<body>
+  
+	<input type="hidden" id="ws_url" value="{{ws_url}}">
+	
+	<h1>{{title}}</h1>
+	<h4>{{credit}}</h4>
+
+	<div class="div_spa">
+		<button class="spa_button" onclick="spa_home()">HOME</button>
+		<button class="spa_button" onclick="spa_readme()">README</button>
+	</div>
+		
+	<div class="spa_body" id="spa_home">
+		
+    <div id="div_info_display"></div>
+        
+    <div class="div_left">
+      <button class="display_button" onclick="bt_connect()">bluetoothctl</button>
+      <div id="div_bt_display"></div>
+    </div>
+
+    <div class="div_right">
+      <button class="display_button" onclick="dbus_connect()">dbus</button>
+      <div id="div_dbus_display"></div>
+    </div>
+ 
+		<div class="div_clear_both"></div>
+    
+
+    
+  </div><!-- spa_home -->
+
+  <div class="spa_body" id="spa_readme">{{readme}}</div><!-- spa_readme -->
+
+	<h3>{{title}}</h3>
+	<h4>{{credit}}</h4>
+    	
+</body>
+</html>
