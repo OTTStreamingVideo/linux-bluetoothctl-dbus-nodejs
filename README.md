@@ -56,11 +56,11 @@ The web interface uses a very simple Single Page Architecture ("SPA") for the HO
 
 2. Clone the repository:
 
-		git clone https://github.com/OTTStreamingVideo/linux-bluetoothctl-dbus-tool.git
+		git clone hhttps://github.com/OTTStreamingVideo/linux-bluetoothctl-dbus-nodejs.git
 
 3. Change directory to the repo directory:
 
-		cd linux-bluetoothctl-dbus-tool
+		cd linux-bluetoothctl-dbus-nodejs
 
 4. Install the required NodeJS packages:
 
