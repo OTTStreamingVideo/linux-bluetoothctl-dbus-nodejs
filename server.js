@@ -284,14 +284,14 @@ webserver.post('/bluetooth', function (req, res) {
       ws_send(JSON.stringify({"el":"bt","html":ts() + d.toString()}));
       
       //
-      // look for TCL
+      // look for target phone
       //
       
-      if (d.toString().includes("64:09:AC:3A:72:EF")) {
+      if (d.toString().includes(cfgObj.target_id)) {
       
         console.log(ts()+"server.js 'TCL T790S' found");
         
-        ws_send(JSON.stringify({"el":"bt","html":ts() + "'TCL T790S' found"}));
+        ws_send(JSON.stringify({"el":"bt","html":ts() + "'" + cfgObj.target_name + "' found"}));
       
       }
       

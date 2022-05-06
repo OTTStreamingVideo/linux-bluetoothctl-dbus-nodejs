@@ -56,7 +56,7 @@ The web interface uses a very simple Single Page Architecture ("SPA") for the HO
 
 2. Clone the repository:
 
-		git clone hhttps://github.com/OTTStreamingVideo/linux-bluetoothctl-dbus-nodejs.git
+		git clone https://github.com/OTTStreamingVideo/linux-bluetoothctl-dbus-nodejs.git
 
 3. Change directory to the repo directory:
 

@@ -12,8 +12,11 @@ cfgObj.port           		= 3000;
 cfgObj.ws_port        		= 3001;
 cfgObj.ws_url         		= "ws://" + cfgObj.host + ":" + cfgObj.ws_port + "/ws";
 
-cfgObj.bt_timeout_mSec		= 60000;	// to disable set to 0*1
-cfgObj.dbus_timeout_mSec	= 60000;	// to disable set to 0*1
+cfgObj.bt_timeout_mSec		= 0*1;	// to disable set to 0*1
+cfgObj.dbus_timeout_mSec	= 0*1;	// to disable set to 0*1
+
+cfgObj.target_id					= "XX:XX:XX:XX:XX:XX"; // target phone id
+cfgObj.target_name				= "TARGET-PHONE-NAME"; // target phone NAME
 
 cfgObj.title          		= "Bluetoothctl and D-Bus Tool";
 cfgObj.credit          		= "Courtesy of <a href='https://OTTStreamingVideo.net' target='_blank'>OTTStreamingVideo.net</a>";
